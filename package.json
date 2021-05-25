@@ -6,8 +6,5 @@
   "keywords": [
     "Tools"
   ],
-  "description": "birdTools is a handly toolbox for unity game development.",
-  "dependencies": {
-    "com.domybest.mybox": "1.6.2"
-  }
+  "description": "birdTools is a handly toolbox for unity game development."
 }
