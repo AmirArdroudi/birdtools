@@ -1,6 +1,6 @@
 {
-    "name": "com.amirardroudi.birdTools",
-    "displayName": "birdTools",
+    "name": "com.AmirArdroudi.birdTools",
+    "displayName": "birdTools package",
     "version": "1.0.0",
     "unity": "2020.4",
     "keywords": ["Tools"],
