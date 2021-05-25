@@ -8,6 +8,6 @@
   ],
   "description": "birdTools is a handly toolbox for unity game development.",
   "dependencies": {
-    "com.domybest.mybox": "https://github.com/Deadcows/MyBox.git"
+    "com.domybest.mybox": "1.6.2"
   }
 }
