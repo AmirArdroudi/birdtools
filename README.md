@@ -9,4 +9,13 @@
   2. Click on "+" button in the upper left
   3. select "Add package from git URL" and paste this repository URL 
   >  https://github.com/AmirArdroudi/birdtools.git
+
+## Tools and Featuers
+#### custom scriptable-object based event handler
+
+#### Scriptable-object based variables (intSO, floatSO, stringSO, colorSO)
+
+#### Debugging Tools
+ - FPS component
+ - console command
  
