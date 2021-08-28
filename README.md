@@ -1,7 +1,7 @@
-# birdTools
- handy tools for developing games in Unity
+# 🐦birdTools 
+ handy tools for developing games in Unity (WIP)
  
-## Installation 
+## ✨Installation 
  ### Install via packageManager
   cleanest way to install birdtools is [via UPM](https://docs.unity3d.com/Manual/upm-ui-giturl.html)
 
@@ -10,12 +10,15 @@
   3. select "Add package from git URL" and paste this repository URL 
   >  https://github.com/AmirArdroudi/birdtools.git
 
-## Tools and Featuers
-#### custom scriptable-object based event handler
+## 🛠Tools and Featuers
+#### 🟢 Custom scriptable-object based event handler
 
-#### Scriptable-object based variables (intSO, floatSO, stringSO, colorSO)
+#### 🟢 Scriptable-object based variables (intSO, floatSO, stringSO, colorSO)
 
-#### Debugging Tools
- - FPS component
- - console command
- 
+#### 🟢 Debugging Tools
+   - FPS component
+   - console command
+## How to Use and Examples 
+coming soon!
+
+🐞 feel free to open issue or make pull requeset :)
