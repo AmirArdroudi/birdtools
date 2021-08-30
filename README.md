@@ -13,7 +13,7 @@
 ## 🛠Tools and Featuers
 #### 🟢 Custom scriptable-object based event handler
 
-#### 🟢 Scriptable-object based variables (intSO, floatSO, stringSO, colorSO)
+#### 🟢 Scriptable-object based variables (AudioSO, intSO, floatSO, stringSO, colorSO)
 
 #### 🟢 Debugging Tools
    - FPS component
