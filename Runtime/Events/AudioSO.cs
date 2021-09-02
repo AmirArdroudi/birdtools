@@ -6,18 +6,19 @@ namespace BirdTools
     public class AudioSO : AudioEvent
     {
         public AudioClip[] clips;
-        [Range(0,1)] public float volume = 0.9f;
-        [Range(0,1)] public float pitch = 0.9f;
+        [MinMax(0, 1)] public RangedFloat volume;
+        [MinMax(-3, 3)] public RangedFloat pitch;
 
         public override void Play(AudioSource source)
         {
             if (clips.Length == 0) return;
 
             source.clip = clips[Random.Range(0, clips.Length)];
-            source.volume = Random.Range(volume, volume+0.2f);
-            source.pitch =  Random.Range(pitch, pitch +0.1f);
+            source.volume = Random.Range(volume.Min, volume.Max);
+            source.pitch =  Random.Range(pitch.Min, pitch.Max);
             source.Play();
         }
         
     }
+    
 }
