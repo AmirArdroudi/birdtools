@@ -2,7 +2,7 @@
 
 namespace BirdTools
 {
-    [CreateAssetMenu (fileName = "varS_", menuName = "BirdTools/Variables/String")]
+    [CreateAssetMenu (fileName = "string_", menuName = "BirdTools/Variables/String")]
     public class StringVariable : ScriptableObject
     {
         public string Value;

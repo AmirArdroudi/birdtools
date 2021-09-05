@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace BirdTools
 {
-    [CreateAssetMenu(fileName = "varF_", menuName = "BirdTools/Variables/Int")]
+    [CreateAssetMenu(fileName = "int_", menuName = "BirdTools/Variables/Int")]
     public class IntVariable : ScriptableObject
     {
         public int Value;

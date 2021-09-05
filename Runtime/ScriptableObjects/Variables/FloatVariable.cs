@@ -2,7 +2,7 @@
 
 namespace BirdTools
 {
-    [CreateAssetMenu(fileName = "varF_", menuName = "BirdTools/Variables/Float")]
+    [CreateAssetMenu(fileName = "float_", menuName = "BirdTools/Variables/Float")]
     public class FloatVariable : ScriptableObject
     {
         public float Value;

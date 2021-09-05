@@ -2,7 +2,7 @@
 
 namespace BirdTools
 {
-    [CreateAssetMenu(fileName = "varColor_", menuName = "BirdTools/Variables/Color", order = 0)]
+    [CreateAssetMenu(fileName = "color_", menuName = "BirdTools/Variables/Color", order = 0)]
     public class ColorVariable : ScriptableObject
     {
         public Color Value;
