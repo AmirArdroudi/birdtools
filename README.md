@@ -15,6 +15,8 @@
 
 #### 🟢 Scriptable-object based variables (AudioSO, intSO, floatSO, stringSO, colorSO)
 
+#### 🟢 Runtime Set based on Scriptable-object
+
 #### 🟢 Debugging Tools
    - FPS component
    - console command
