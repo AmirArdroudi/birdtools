@@ -9,10 +9,18 @@ namespace BirdTools
 #if UNITY_EDITOR
         public string developerDescription = "RaiseBy: ";
 #endif
+        [Tooltip("Just raise event once")]
         public bool once = false;
+        
+        [Tooltip("Delay before raise the event")]
+        [Range(0, 10)] public float delay = 0;
+        
+        [Tooltip("Raise this event on start")]
+        public bool autoPlay = false;
+        [Space]
         public GameEvent GameEvent;
         public UnityEvent Response;
-        [Range(0, 10)] public float delay = 0;
+        
         private bool isRaised = false;
         private void OnEnable()
         {
@@ -22,6 +30,11 @@ namespace BirdTools
         private void OnDisable()
         {
             GameEvent.UnsubscribeListener(this);
+        }
+
+        private void Start()
+        {
+            if(autoPlay) Response.Invoke();
         }
 
         public void OnEventRaised()
