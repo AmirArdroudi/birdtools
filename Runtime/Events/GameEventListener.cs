@@ -34,7 +34,7 @@ namespace BirdTools
 
         private void Start()
         {
-            if(autoPlay) Response.Invoke();
+            if(autoPlay) OnEventRaised();
         }
 
         public void OnEventRaised()
