@@ -1,6 +1,6 @@
 {
   "name": "com.amirardroudi.birdtools",
-  "displayName": "birdTools package",
+  "displayName": "birdTools",
   "version": "1.0.0",
   "unity": "2020.4",
   "description": "birdTools is a handly toolbox for unity game development.",
