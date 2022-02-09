@@ -3,8 +3,11 @@
   "displayName": "birdTools package",
   "version": "1.0.0",
   "unity": "2020.4",
+  "description": "birdTools is a handly toolbox for unity game development.",
+  "dependencies": {
+    "com.domybest.mybox" : "https://github.com/Deadcows/MyBox.git"
+  },
   "keywords": [
     "Tools"
-  ],
-  "description": "birdTools is a handly toolbox for unity game development."
+  ]
 }
