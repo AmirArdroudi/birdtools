@@ -9,11 +9,14 @@ namespace BirdTools
         public int fontSize = 2;
         public Color color = new Color(0.0f, 0.0f, 0.5f, 1.0f);
 
-        [Header("Target framerate")] public int framerate = 60;
+        [Header("Target framerate")]
+        public bool hasTargetFramerate = false;
+        public int framerate = 60;
 
         private void Awake()
         {
-            Application.targetFrameRate = framerate;
+            if(hasTargetFramerate)
+                Application.targetFrameRate = framerate;
         }
 
         void Update()
