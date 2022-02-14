@@ -7,7 +7,7 @@ namespace BirdTools
     {
         private float deltaTime = 0.0f;
         public int fontSize = 2;
-        public Color color = new Color(0.0f, 0.0f, 0.5f, 1.0f);
+        public Color color = new Color(0.0f, 1.0f, 0.0f, 1.0f);
 
         [Header("Target framerate")]
         public bool hasTargetFramerate = false;
