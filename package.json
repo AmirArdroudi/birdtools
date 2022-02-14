@@ -1,13 +1,16 @@
 {
-  "name": "com.amirardroudi.birdtools",
-  "displayName": "birdTools",
-  "version": "1.0.0",
-  "unity": "2020.4",
-  "description": "birdTools is a handly toolbox for unity game development.",
-  "dependencies": {
-    "com.domybest.mybox" : "https://github.com/Deadcows/MyBox.git"
-  },
-  "keywords": [
-    "Tools"
-  ]
+    "name": "com.amirardoudi.birdtools",
+    "version": "1.0.0",
+    "displayName": "Bird Tools",
+    "description": "",
+    "unity":"2020.3",
+    "dependencies": {
+    },
+    "keywords": ["tools", "extensions", "SO"],
+    "author": {
+        "name": "Amir Ardroudi",
+        "email": "a.ardroudi@gmail.com",
+        "url": "https://github.com/AmirArdroudi/birdtools"
+    } 
+
 }

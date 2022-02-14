@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace VOID.GE
+namespace BirdTools
 {
     [RequireComponent(typeof(Collider))]
     public class OnTrigger : MonoBehaviour
